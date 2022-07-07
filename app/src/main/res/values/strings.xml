@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProVideoMaker</string>
+    <string name="name_ad">Hikemoore Outdoor</string>
+    <string name="free">FREE</string>
+    <string name="guide">0ops! No recent Projects\nClick \'+\' to create</string>
+    <string name="create_a_project">Create a project</string>
+    <string name="photo_selected">Photo Selected</string>
+    <string name="next">NEXT</string>
+</resources>
