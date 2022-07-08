@@ -3,18 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_background_switch.xml" value="0.2745" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_bottom_layout.xml" value="0.148" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_image_selected.xml" value="0.2745" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_radius_button.xml" value="0.2745" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_rectangle.xml" value="0.33" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_switch.xml" value="0.2745" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/custom_thumb.xml" value="0.2745" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.295" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_baseline_arrow_back_24_black.xml" value="0.2745" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2745" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_btn_play.xml" value="0.2745" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_dark_mode_add.xml" value="0.178" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_music.xml" value="0.2745" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/drawable/ic_rectangle_light_mode.xml" value="0.1965" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/activity_export.xml" value="0.36666666666666664" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/activity_library.xml" value="0.33" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/advertise_layout.xml" value="0.36614583333333334" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_bottom_sheet_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_dropdown_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_dropdown_view.xml" value="0.36666666666666664" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_item_recycler_view.xml" value="0.19114583333333332" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_recycler_image_selected.xml" value="0.36666666666666664" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_tool_iteam.xml" value="0.36666666666666664" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/custom_tool_item.xml" value="0.36666666666666664" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/toolbar.xml" value="0.33" />
         <entry key="..\:/ProVideoMaker/app/src/main/res/layout/toolbar_back.xml" value="0.36666666666666664" />
+        <entry key="..\:/ProVideoMaker/app/src/main/res/layout/toolbar_white.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

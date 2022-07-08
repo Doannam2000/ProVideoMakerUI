@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProVideoMaker">
         <activity
-            android:name=".LibraryActivity"
+            android:name=".activities.ExportActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

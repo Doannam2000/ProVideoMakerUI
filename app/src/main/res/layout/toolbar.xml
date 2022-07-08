@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -11,24 +12,34 @@
         android:textSize="@dimen/dimen_20sp"
         android:textStyle="bold" />
 
-    <FrameLayout
-        android:id="@+id/change_mode"
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/change_mode"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="right"-->
+    <!--        android:layout_marginRight="20dp">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/back_ground_switch_mode"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:src="@drawable/ic_rectangle_light_mode" />-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/icon_switch_mode"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="right"-->
+    <!--            android:src="@drawable/ic_light_mode_sun" />-->
+    <!--    </FrameLayout>-->
+
+    <Switch
+        android:id="@+id/switchMode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginRight="20dp">
-
-        <ImageView
-            android:id="@+id/back_ground_switch_mode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_rectangle_light_mode" />
-
-        <ImageView
-            android:id="@+id/icon_switch_mode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:src="@drawable/ic_light_mode_sun" />
-    </FrameLayout>
+        android:layout_marginRight="@dimen/dimen_15dp"
+        android:thumb="@drawable/custom_thumb"
+        android:track="@drawable/custom_track_switch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 </androidx.appcompat.widget.Toolbar>

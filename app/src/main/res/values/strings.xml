@@ -6,4 +6,7 @@
     <string name="create_a_project">Create a project</string>
     <string name="photo_selected">Photo Selected</string>
     <string name="next">NEXT</string>
+    <string name="export">Export</string>
+    <string name="recent">Recent</string>
+    <string name="long_press">Long press and drag to swap order</string>
 </resources>

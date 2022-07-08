@@ -2,19 +2,34 @@
 <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="56dp"
-    android:background="@color/black">
+    android:background="@color/black_0">
 
     <ImageView
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingVertical="@dimen/dimen_15dp"
         android:paddingRight="@dimen/dimen_15dp"
         android:src="@drawable/ic_baseline_arrow_back_24" />
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/dropDown"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recent "
-        android:textColor="@color/white"
-        android:textSize="@dimen/dimen_16sp"/>
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/dimen_15dp"
+            android:text="Recent "
+            android:textColor="@color/white_0"
+            android:textSize="@dimen/dimen_16sp" />
+
+        <ImageView
+            android:id="@+id/imageDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/dimen_15dp"
+            android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+    </LinearLayout>
 </androidx.appcompat.widget.Toolbar>

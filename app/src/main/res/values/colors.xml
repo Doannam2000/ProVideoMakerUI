@@ -9,8 +9,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white_0">#ffffff</color>
+    <color name="white0">#ffffff</color>
     <color name="yellow">#FDB23F</color>
     <color name="green_27">#27AE60</color>
     <color name="grey_E">#EEEFF6</color>
+    <color name="grey">#EEEFF6</color>
     <color name="blue_4">#46A5D8</color>
+    <color name="black_alpha">#D9000000</color>
+    <color name="white_D9">#D9FFFFFF</color>
+
 </resources>
