@@ -32,10 +32,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        switchMode.setOnClickListener {
+            motionLayout.transitionToEnd()
+        }
+
         layoutLinear.setOnClickListener {
             startActivity(Intent(this, LibraryActivity::class.java))
             overridePendingTransition(R.anim.right_to_lef_in, R.anim.right_to_left_out)
         }
     }
-
 }
